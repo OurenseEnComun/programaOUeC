@@ -1,6 +1,6 @@
 {% extends "base_envia.html" %}
 
-{% block title %} Nueva propuesta {% endblock %}
+{% block title %} Nova proposta {% endblock %}
 {% block scripts %}
 
 <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
@@ -39,10 +39,10 @@ R.scaleAll(0.6);
 	    },
 	    messages:{
 	      titulo: {
-			required: "Tienes que escribir un título para tu propuesta",
+			required: "Tes que escribir un título para a túa proposta",
 	      },
 	      propuesta: {
-	      	required: "Tiene que elegir un sector",
+	      	required: "Tes que escoller un sector",
 	    }
 	}
 	});
@@ -68,7 +68,7 @@ R.scaleAll(0.6);
 			if( typeof distrito != 'undefined'){ // vienen de una página de distrito a añadir algo
 				$('#step-distritos').show();
 				//$('#step-elige-previous').show();
-				$('#step-distritos h3.titulo1').empty().text('Vas a añadir tu propuesta a este distrito:')
+				$('#step-distritos h3.titulo1').empty().text('Vas engadir a túa proposta a este distrito:')
 				
 
                 $('#step-envia').show();
@@ -103,7 +103,7 @@ R.scaleAll(0.6);
 				$('input#'+objetivo).prop('checked', true); 
 				optionIsSelected=true;
 				$('input#'+objetivo).trigger('change');
-				$('#step-elige h3.titulo1').empty().html('Hemos seleccionado por tí el objetivo según la página de donde vienes <strong> Cámbialo si tu medida se encuadra mejor en otro lado</strong>')					
+				$('#step-elige h3.titulo1').empty().html('Seleccionamos por ti o obxectivo segundo a páxina desde onde ves <strong> Cámbiao se a túa medida cadra mellor noutro lado</strong>')					
 				$('#step-elige').fadeIn("fast", function(){ 
 					$("html, body").animate({ scrollTop: $('#step-elige').offset().top-100},1000);
 				}); 
@@ -174,30 +174,30 @@ R.scaleAll(0.6);
 		<div class="row">
 			<div class="central col-md-8">			
 				<div id="step-escribe">
-					<h1 > LOS PROBLEMAS Y SOLUCIONES PARA MADRID SON MUCHOS Y COMPLEJOS... <br/>¿QUÉ PROPONES? </h1>
-					<h4><p> Te harán falta <strong> sólo 3 sencillos pasos</strong> para enviar una propuesta (¡o incluso menos!) </p> <p> Tendrás que introducir tu nueva medida y después asignarla bajo una categoría o un distrito de la ciudad </p>
-						<p> <small>No olvides que ya hay muchas medidas incluidas en la plataforma, <a href="index.php#sectores"> empieza por echar un ojo a lo que ya hay </a> antes de enviar algo nuevo </small></p>
+					<h1 > OS PROBLEMAS E SOLUCIÓNS PARA CORUÑA SON MOITOS E COMPLEXOS... <br/>E TI... QUE PROPÓS? </h1>
+					<h4><p> Faranche falla <strong> só 3 sinxelos pasos</strong> para enviar unha proposta (ou tal vez menos!) </p> <p> Terás que introducir a túa nova medida e despois asignala baixo unha categoría </p>
+						<p> <small>Non esquezas que xa hai moitas medidas incluídas na plataforma, <a href="index.php#sectores"> empeza por botar unha ollada ao que xa está </a> antes de enviar algo novo </small></p>
 					</h4>	
-					    		<h3>1. Comienza escribiendo tu nueva medida de una forma clara y concisa: </h3>	
+					    		<h3>1. Comeza por escribir a túa nova medida dunha forma clara e concisa: </h3>	
 					<div class="col-xs-10 col-md-offset-1">
 					  <div class="form-group">
 					    <label for="titulo">Título *</label>
 					    <input type="text" name ="titulo" class="form-control" id="titulo"
-					           placeholder="Título de la propuesta">
+					           placeholder="Título da proposta">
 					  </div>
 					</div>
 					
 					<div class="col-xs-10 col-md-offset-1">
 					  <div class="form-group">
-					    <label for="propuesta">Escribe la propuesta *</label>
+					    <label for="propuesta">Escribe a proposta *</label>
 					    <textarea class="form-control" name="propuesta" id="propuesta" rows="10"></textarea> 
 					  </div>
-					  <div> <h4> Puedes clasificar la propuesta como asociada a un distrito de Madrid o en general para toda la ciudad pero asociada a un objetivo </h4> </div>
+					  <div> <h4> Podes clasificar a proposta como asociada a un barrio da Coruña ou en xeral para toda a cidade mais asociada a un obxectivo </h4> </div>
 					  <div class="col-sm-5" style="margin-top:5px">
-					  	<a href="#" id="continue1" class="btn-lg btn-block btn btn-success"> Para toda la ciudad</a> 
+					  	<a href="#" id="continue1" class="btn-lg btn-block btn btn-success"> Para toda a cidade</a> 
 					  </div>
 					  <div class="col-sm-5" style="margin-top:5px">
-					  	<a href="#" id="continue2" class="btn-lg btn-block btn btn-success"> Asociada a un distrito</a>
+					  	<a href="#" id="continue2" class="btn-lg btn-block btn btn-success"> Asociada a un barrio</a>
 					  </div>
 					</div>
 				</div>			
@@ -211,8 +211,8 @@ R.scaleAll(0.6);
 		<div class="row">
 			<div id="step-elige-previous">
 				<div class="col-xs-12" >
-					<small> 2. El paso 2 nos lo hemos saltado porque parece que tu propuesta se centra en un distrito. <br/>
-					Si nos hemos equivocado y tu propuesta es para toda la ciudad <a href="#" id="show-step-elige">pulsa aquí y podrás elegir la categoría:</a> </small>
+					<small> 2. Saltámonos o paso 2 porque parece que a túa proposta se centra nun barrio. <br/>
+					Si nos equivocamos e a túa proposta é para toda a cidade <a href="#" id="show-step-elige">preme aquí e poderás elixir a categoría:</a> </small>
 				</div>
 			</div>
 		</div>
@@ -220,7 +220,7 @@ R.scaleAll(0.6);
 		<div class="row">
 			<div id="step-elige">
 				<div class="col-xs-12" id="lista-objetivos">
-					<h3 class="titulo1"> 2. AHORA ELIGE <strong>UN OBJETIVO </strong>  DONDE ENCUADRAR TU PROPUESTA: </h3>
+					<h3 class="titulo1"> 2. AGORA ESCOLLE <strong>UN OBXECTIVO </strong>  ONDE ENCADRAR A TÚA PROPOSTA: </h3>
 					<div class="form-group" id="form-seleccion-objetivos"  >
 					<input type="radio" name="sector" class=" " id="empty_radio" value="" checked style="display:none">
 						<div class="row"> 		    		
@@ -247,7 +247,7 @@ R.scaleAll(0.6);
 								</div>
 								<div class="apuesta" id="objetivo-sin-objetivo">
 									<br/>
-									<label class="objetivo" style="color:#000"><input type="radio" name="sector" class="" id="" value="sin-categoria"> No sé donde encajar esta propuesta. </label>
+									<label class="objetivo" style="color:#000"><input type="radio" name="sector" class="" id="" value="sin-categoria"> Non sei onde encaixar esta proposta. </label>
 								</div>
 							</div>
 						</div>
@@ -256,14 +256,14 @@ R.scaleAll(0.6);
 			</div>
 		</div>
 		<div id="step-distritos">
-			<h3 class="titulo1"> 3. Tu medida está centrada en un distrito: </h3>
+			<h3 class="titulo1"> 3. A túa medida está centrada nun barrio: </h3>
 			<div class="row" id="distritos-inner">				
 				<div class="col-md-6">
 					<div id="info-distrito">
 						<div id="nombre-distrito">
 							<div class="form-group">
 								<select value="" id="distritoSelect" name="barrio" class="form-control">
-									<option value="">Elige distrito </option>
+									<option value="">Elixe barrio </option>
 								</select>
 							</div> 
 						</div> 
@@ -283,10 +283,10 @@ R.scaleAll(0.6);
 		</div>
 		<div id="step-envia">
 			<div class="row">
-						<h3>4. ¡Ya has terminado! Ahora pulsa enviar para mandarnos tu propuesta.</h3>
+						<h3>4. Terminaches! Agora preme enviar para mandarnos a túa proposta.</h3>
 						
 						<button type="submit" id="enviar" class="btn-lg btn-block btn btn-success">Enviar</button>
-						<span class="mini-texto-ayuda"> *Nota: una vez pulses enviar no podrás volver a editar tu propuesta</span>
+						<span class="mini-texto-ayuda"> *Nota: unha vez premas enviar non poderás volver a editar a túa proposta</span>
 			</div>
 		</div>
 				
