@@ -2,9 +2,9 @@
 
 {% block title %}
 	{% if tag %}
-		Propuestas de {{tag}} 
+		Propostas de {{tag}} 
 	{%else%}
-		Propuestas de programa
+		Propostas de programa
 	{% endif %}
 	{% endblock %} 
 {% block scripts %}
@@ -43,7 +43,7 @@ $(document).ready(function() {
 	</div>
 	<div class="row">
 		<div class="col-xs-12">
-		Esta área se compone de los siguientes objetivos que puedes explorar:
+		Esta área componse dos seguintes obxectivos que podes explorar:
 		</div>		
 	</div>
 	<div class="row" id="programa" >
@@ -59,14 +59,14 @@ $(document).ready(function() {
 	{% if user %}
 	<div class="row">
 		<div class="col-xs-12">
-			<h4 class="text-center"> ¿Te gustaría proponer algo para Madrid? </h4>
-			<a class="btn btn-success btn-lg btn-block" href="nueva-propuesta.php">SUBIR UNA NUEVA MEDIDA</a>
+			<h4 class="text-center"> Gustaríache propoñer algo para Coruña? </h4>
+			<a class="btn btn-success btn-lg btn-block" href="nueva-propuesta.php">SUBIR UNHA NOVA MEDIDA</a>
 		</div>
 	</div>	
 	{% else %}
 	<div class="row">
 		<div class="col-xs-12">
-			<a href="login.php"> Tienes que estar identificado para hacer una propuesta. ¡Registrate y participa!</a>
+			<a href="login.php"> Tes que identificarte na web para facer unha proposta. Rexístrate e participa!</a>
 		</div>
 	</div>
 	{% endif %}
