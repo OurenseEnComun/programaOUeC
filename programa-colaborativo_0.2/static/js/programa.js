@@ -99,19 +99,24 @@ var listobjetivos={
 
 var apuestas={
     'derechos-equidad':{
-        "titulo": "Derechos sociales y Equidad",
+        "titulo": "Modelo económico e enerxético",
         "descripcion": "<p>AHORA MADRID apuesta por la defensa de los derechos sociales y los servicios públicos para todo/as y para cada uno/a. Equidad y respeto a la diversidad son las claves de nuestra políticas, porque sabemos que todos/as necesitamos acceder a la sanidad, a la salud o a la cultura, pero también que nuestra edad, nuestra renta o nuestra procedencia hace que tengamos necesidades específicas. Por eso, a la hora de potenciar la vida en los barrios y de mejorar la calidad de vida, otros de nuestros prinicipales objetivos, también estamos atentos/as a las necesidades de todos/as y de cada uno/a. </p>",
     },
     'ciudad-sostenible':{
-        "titulo": "Ciudad sostenible, cohesionada y cercana",
+        "titulo": "Xustiza e cohesión social",
         "descripcion": "<p>AHORA MADRID apuesta por la defensa de una modelo de ciudad diseñado y gobernado por sus vecinas y vecinos. El modelo de gestión de la ciudad de Madrid viene estando al servicio de los intereses de unos pocos. Proponemos como objetivos la puesta en marcha de un nuevo planeamiento al servicio de los ciudadanos, la regeneración de la forma de uso y el cuidado del espacio urbano y el patrimonio común. Una rehabilitación física y social de la ciudad que requiere de medidas urgentes y un proceso profundo de participación para definir estrategias eficaces que cubran los intereses de todas las personas.</p>",
     },
     'gobierno-democratico':{
-        "titulo": "Gobierno Democrático, transparente y eficaz",
+        "titulo": "Modelo territorial e urbano",
         "descripcion": "<p>AHORA MADRID apuesta por una ciudad sin corrupción, en la que sus habitantes puedan incidir de manera directa sobre cualquier ámbito municipal que les afecte, potenciando la democracia local con la participación de toda la ciudadanía en la elaboración colectiva del proyecto de ciudad, independientemente de su edad, género, orientación sexual, origen o diversidad funcional. AHORA MADRID quiere garantizar la participación plena y equitativa garantizar la transparencia de las instituciones locales y el control del gasto público.</p>",
     },
     'economia-empleo':{
-        "titulo": "Economía sostenible y empleo de calidad",
-        "descripcion": "<p>AHORA MADRID desarrollará las medidas que propicien un cambio económico, que revierta el sistemático desmantelamiento de la actividad productiva, y que esté orientado a la consecución de un nuevo modelo sostenible social y medioambientalmente en la ciudad de Madrid. Para ello pretendemos garantizar un empleo de calidad, que sea sostenible medioambientalmente y que favorezca la pequeña economía y el trabajo cooperativo. AHORA MADRID pondrá los presupuestos del Ayuntamiento, la fiscalidad, las ordenanzas y normativas y sus infraestructuras al servicio de este nuevo modelo económico.</p>"
+        "titulo": "Cultura, memoria e identidades",
+        "descripcion": "<p>AHORA MADRID desarrollará las medidas que propicien un cambio económico, que revierta el sistemático desmantelamiento de la actividad productiva, y que esté orientado a la consecución de un nuevo modelo sostenible social y medioambientalmente en la ciudad de Madrid. Para ello pretendemos garantizar un empleo de calidad, que sea sostenible medioambientalmente y que favorezca la pequeña economía y el trabajo cooperativo. AHORA MADRID pondrá los presupuestos del Ayuntamiento, la fiscalidad, las ordenanzas y normativas y sus infraestructuras al servicio de este nuevo modelo económico.</p>",
+    },
+    'radicalizacion-democratica':{
+        "titulo": "Radicalización democrática",
+        "descripcion": "<p>AHORA MADRID desarrollará las medidas que propicien un cambio económico, que revierta el sistemático desmantelamiento de la actividad productiva, y que esté orientado a la consecución de un nuevo modelo sostenible social y medioambientalmente en la ciudad de Madrid. Para ello pretendemos garantizar un empleo de calidad, que sea sostenible medioambientalmente y que favorezca la pequeña economía y el trabajo cooperativo. AHORA MADRID pondrá los presupuestos del Ayuntamiento, la fiscalidad, las ordenanzas y normativas y sus infraestructuras al servicio de este nuevo modelo económico.</p>",
+
     }
 }
