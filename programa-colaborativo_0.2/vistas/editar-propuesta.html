@@ -1,6 +1,6 @@
 {% extends "base2.html" %}
 
-{% block title %} Editar propuesta {% endblock %}
+{% block title %} Editar proposta {% endblock %}
 {% block scripts %}
 
 <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
@@ -26,10 +26,10 @@ $(document).ready(function() {
 	    },
 	    messages:{
 	      titulo: {
-			required: "Tiene que poner un título",
+			required: "Tes que poñer un título",
 	      }/*,
 	      sector: {
-	      	required: "Tiene que elegir un sector",
+	      	required: "Tes que escoller un sector",
 	    }*/
 	}
 	});
@@ -83,7 +83,7 @@ $(document).ready(function() {
 		
 		<div class="col-xs-10 col-md-offset-1">
 		  <div class="form-group">
-		    <label for="propuesta">Escribe la propuesta *</label>
+		    <label for="propuesta">Escribe a proposta *</label>
 		    <textarea class="form-control" name="propuesta" id="propuesta" rows="10">{{propuesta.propuesta}}</textarea> 
 		  </div>
 		</div>
@@ -92,7 +92,7 @@ $(document).ready(function() {
 		  <div class="form-group" id="form-seleccion-objetivos">
 		    
 			<div style="clear:both"></div>
-			Selecciona un objetivo (opcional)
+			Selecciona un obxectivo (opcional)
 			<div id="#lista-objetivos">
 				
 					<input type="radio" name="sector" class=" " id="empty_radio" value="" checked style="display:none">
@@ -121,7 +121,7 @@ $(document).ready(function() {
 							<div class="apuesta">
 								<label class="objetivo" style="color:red; margin-top:2em;">
 									<input type="radio" name="sector" class="'+
-			'apuesta" id="" value="" > No colocar bajo ningun objetivo: medida sólo de barrio </label>'
+			'apuesta" id="" value="" > Non colocar baixo ningún obxectivo: medida só de barrio </label>'
 							</div>
 						</div>
 					</div>
@@ -133,10 +133,10 @@ $(document).ready(function() {
 
 		<div class="col-xs-10 col-md-offset-1">
 		  <div class="form-group">
-		    <label for="desarrollo">Selecciona un distrito (opcional)</label>
+		    <label for="desarrollo">Selecciona un barrio (opcional)</label>
 
 		    <select class="form-control" name="barrio" id="distritoSelect">
-			  <option value="">Selecciona un Distrito</option>
+			  <option value="">Selecciona un barrio</option>
 			  
 			</select>
 		    

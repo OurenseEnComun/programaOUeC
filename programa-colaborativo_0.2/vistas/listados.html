@@ -1,9 +1,9 @@
 	<div class="row">
 		<ul class="nav nav-tabs" role="tablist" id="tabsIndex">
-  			<li class="active"><a href="#valoradas" role="tab" data-toggle="tab">Más valoradas</a></li>
-  			<li><a href="#consensuadas" role="tab" data-toggle="tab">Más consenso</a></li>
-  			<li><a href="#debatidas" role="tab" data-toggle="tab">Más debatidas</a></li>
-  			<li><a href="#recientes" role="tab" data-toggle="tab">Más recientes</a></li>
+  			<li class="active"><a href="#valoradas" role="tab" data-toggle="tab">Máis valoradas</a></li>
+  			<li><a href="#consensuadas" role="tab" data-toggle="tab">Máis consenso</a></li>
+  			<li><a href="#debatidas" role="tab" data-toggle="tab">Máis debatidas</a></li>
+  			<li><a href="#recientes" role="tab" data-toggle="tab">Máis recentes</a></li>
   
 		</ul>
 	</div>
@@ -18,7 +18,7 @@
 			</div>
 			<div class="col-xs-11">				
 				<div class="titulo"><a href="propuesta.php?id={{propuesta.id}}">{{ propuesta.titulo}}</a></div>
-				<div class="metadata">autor: <strong>{{ propuesta.nombre}} {{ propuesta.apellidos}} </strong> | <strong>{{ propuesta.comentarios}}</strong> comentarios | {% set suma = (propuesta.positivos / (propuesta.negativos + propuesta.positivos))*100 %} <strong>{{ suma | number_format(2) }} %</strong> de votos positivos de un total de {{ propuesta.negativos + propuesta.positivos }} votos.
+				<div class="metadata">autor: <strong>{{ propuesta.nombre}} {{ propuesta.apellidos}} </strong> | <strong>{{ propuesta.comentarios}}</strong> comentarios | {% set suma = (propuesta.positivos / (propuesta.negativos + propuesta.positivos))*100 %} <strong>{{ suma | number_format(2) }} %</strong> de votos positivos dun total de {{ propuesta.negativos + propuesta.positivos }} votos.
 				</div>
 				<div class="metadata">
 				{% if propuesta.sector%}
@@ -35,7 +35,7 @@
 		{% endfor %}
 	
 	{% else %}
-		<div class="">No hay propuestas todavía. <a href="nueva-propuesta.php">Envíanos la tuya</a></div>
+		<div class="">Aínda non hai propostas . <a href="nueva-propuesta.php">Envíanos a túa</a></div>
 	{% endif %}
 	</div>
 
@@ -49,7 +49,7 @@
 			</div>
 			<div class="col-xs-11">
 				<div class="titulo"><a href="propuesta.php?id={{debatida.id}}">{{ debatida.titulo}}</a></div>
-				<div class="metadata">autor: <strong>{{ debatida.nombre}} {{ debatida.apellidos}}</strong> | <strong>{{ debatida.comentarios}}</strong> comentarios | {% set suma = (debatida.positivos / (debatida.negativos + debatida.positivos))*100 %} <strong>{{ suma | number_format(2) }} % </strong>de votos positivos de un total de {{ debatida.negativos + debatida.positivos }} votos. </div>
+				<div class="metadata">autor: <strong>{{ debatida.nombre}} {{ debatida.apellidos}}</strong> | <strong>{{ debatida.comentarios}}</strong> comentarios | {% set suma = (debatida.positivos / (debatida.negativos + debatida.positivos))*100 %} <strong>{{ suma | number_format(2) }} % </strong>de votos positivos dun total de {{ debatida.negativos + debatida.positivos }} votos. </div>
 				<div class="metadata">
 				{% if debatida.sector%}
 				sector: <a href="sector.php?sector={{debatida.sector}}"><span class="sector"><strong>{{debatida.sector}}</strong></span></a>
@@ -64,7 +64,7 @@
 		{% endfor %}
 	
 	{% else %}
-		<div class="">No hay propuestas todavía. <a href="nueva-propuesta.php">Envíanos la tuya</a></div>
+		<div class="">Aínda non hai propostas. <a href="nueva-propuesta.php">Envíanos a túa</a></div>
 	{% endif %}
 	</div>
 
@@ -78,7 +78,7 @@
 			</div>
 			<div class="col-xs-11">
 				<div class="titulo"><a href="propuesta.php?id={{reciente.id}}">{{ reciente.titulo}}</a></div>
-				<div class="metadata">autor: <strong>{{ reciente.nombre}} {{ reciente.apellidos}} </strong>| <strong>{{ reciente.comentarios}}</strong> comentarios | {% set suma = (reciente.positivos / (reciente.negativos + reciente.positivos))*100 %} <strong>{{ suma | number_format(2) }} % </strong>de votos positivos de un total de {{ reciente.negativos + reciente.positivos }} votos. </div>
+				<div class="metadata">autor: <strong>{{ reciente.nombre}} {{ reciente.apellidos}} </strong>| <strong>{{ reciente.comentarios}}</strong> comentarios | {% set suma = (reciente.positivos / (reciente.negativos + reciente.positivos))*100 %} <strong>{{ suma | number_format(2) }} % </strong>de votos positivos dun total de {{ reciente.negativos + reciente.positivos }} votos. </div>
 				<div class="metadata">
 				{% if reciente.sector%}
 				sector: <a href="sector.php?sector={{reciente.sector}}"><span class="sector"><strong>{{reciente.sector}}</strong></span></a>
@@ -93,7 +93,7 @@
 		{% endfor %}
 	
 	{% else %}
-		<div class="">No hay propuestas todavía. <a href="nueva-propuesta.php">Envíanos la tuya</a>.</div> 
+		<div class="">Aínda non hai propostas. <a href="nueva-propuesta.php">Envíanos a túa</a>.</div> 
 	{% endif %}
 	</div>
 
@@ -108,7 +108,7 @@
 			<div class="col-xs-11">
 
 				<div class="titulo"><a href="propuesta.php?id={{consenso.id}}">{{ consenso.titulo}}</a></div>
-				<div class="metadata">autor: <strong>{{ consenso.nombre}} {{ consenso.apellidos}} </strong>| <strong>{{ consenso.comentarios}}</strong> comentarios | {% set suma = (consenso.positivos / (consenso.negativos + consenso.positivos))*100 %} <strong>{{ suma | number_format(2) }} % </strong>de votos positivos de un total de {{ consenso.negativos + consenso.positivos }} votos. </div>
+				<div class="metadata">autor: <strong>{{ consenso.nombre}} {{ consenso.apellidos}} </strong>| <strong>{{ consenso.comentarios}}</strong> comentarios | {% set suma = (consenso.positivos / (consenso.negativos + consenso.positivos))*100 %} <strong>{{ suma | number_format(2) }} % </strong>de votos positivos dun total de {{ consenso.negativos + consenso.positivos }} votos. </div>
 				<div class="metadata">
 				{% if consenso.sector%}	
 				sector: <a href="sector.php?sector={{consenso.sector}}"><span class="sector"><strong>{{consenso.sector}}</strong></span></a>
@@ -123,7 +123,7 @@
 		{% endfor %}
 	
 	{% else %}
-		<div class="">No hay propuestas todavía. <a href="nueva-propuesta.php">Envíanos la tuya</a>.</div> 
+		<div class="">Aínda non hai propostas. <a href="nueva-propuesta.php">Envíanos a túa</a>.</div> 
 	{% endif %}
 	</div>
 </div>
