@@ -6,22 +6,34 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/BebasNeue Regular-webfont-webfont.eot');
+    src: url('../fonts/BebasNeue Regular-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Regular-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/BebasNeue Regular-webfont-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue Regular-webfont-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue Regular-webfont-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 #intro-text {
   margin-top: 3em;
   font-size: 1.6em;
-  font-family: 'Roboto Slab', serif;
-  text-align: left;
+  font-family: 'Open Sans', serif;
+  text-align: center;
 }
 hr.hr {
-  background-color: #00a48c;
+  background-color: #00aedf;
   height: 3px;
 }
 header.app-header-ahora {
   width: 100%;
-  background-color: #00a48c;
+  background-color: #00aedf;
 }
 header.app-header-ahora #header-container-ahora #logo-img {
-  height: 60px;
+  height: 80px;
   padding: 4px 0px;
 }
 header.app-header-ahora div.user-nav {
@@ -83,12 +95,18 @@ a.carousel-control.right {
 .carousel-control .glyphicon-chevron-right {
   right: 5%;
 }
+
+
 /*#objetivos-ciudad-habitable div.objetivo{
 	background-color: rgba(0,120,255,0.1);
 }
 
+/*#objetivos-modelo-economico div.objetivo{
+	background-color: rgba(0,120,255,0.1);
+}
+
 #objetivos-democracia-transparencia div.objetivo{
-	background-color: rgba(0,140,70,0.1);
+	background-color: rgba(92,184,92,0.1);
 }
 
 #objetivos-derechos-sociales div.objetivo{
@@ -165,6 +183,18 @@ a.carousel-control.right {
 #programa #col-ciudad-sostenible div.objetivo:hover,
 #programa #col-ciudad-sostenible div.objetivo:active {
   background-color: #4ecdc4;
+}
+#programa #col-modelo-economico div.titulo-apuesta {
+  border: 2px #5CB85C dotted;
+  background-color: rgba(92,184,92,0.9);
+}
+#programa #col-modelo-economico div.objetivo {
+  border: 2px #5CB85C dotted;
+  background-color: rgba(78, 205, 196, 0.1);
+}
+#programa #col-modelo-economico div.objetivo:hover,
+#programa #col-modelo-economico div.objetivo:active {
+  background-color: #5CB85C;
 }
 #programa #col-gobierno-democratico div.titulo-apuesta {
   border: 2px #edc951 dotted;
@@ -247,17 +277,17 @@ nav a {
   transition: background-color 0.6s;
 }
 div.navbar-default {
-  background-color: #00a48c;
+  background-color: #00aedf;
 }
 nav a:hover {
   background-color: #279AEE;
 }
 .principal h1 {
-  color: #00a48c;
-  font-family: 'ubuntu', sans-serif;
+  color: #00aedf;
+  font-family: 'Open Sans', sans-serif;
 }
 h2.madrid {
-  font-family: 'ubuntu', sans-serif;
+  font-family: Open Sans;
   font-size: 4em;
   text-align: center;
 }
@@ -272,7 +302,7 @@ div.votos {
   color: #444;
 }
 .listado {
-  border-bottom: 1px solid #00a48c;
+  border-bottom: 1px solid #00aedf;
 }
 .listado .votos {
   background: #ECF9F8;
@@ -281,10 +311,10 @@ div.votos {
   text-align: left;
 }
 .listado .titulo a {
-  font-family: ubuntu;
+  font-family: Open Sans;
 }
 .listado span.sector {
-  color: #00a48c;
+  color: #00aedf;
 }
 .tipoautor-2,
 .tipoautor-3 {
@@ -297,12 +327,12 @@ div.votos {
 }
 .tipoautor-2 .titulo a,
 .tipoautor-3 .titulo a {
-  color: #00a48c;
+  color: #00aedf;
   font-family: ubuntu;
 }
 .tipoautor-2 .votos,
 .tipoautor-3 .votos {
-  background: #00a48c;
+  background: #00aedf;
   color: white;
 }
 #nota-programa {
@@ -397,11 +427,11 @@ div.votos {
   font-size: 0.9em;
 }
 .footer {
-  background-color: #00a58d;
-  border-top: 5px solid #062033;
+  background-color: #00aedf;
+  border-top: 0px solid #062033;
   color: #fff;
-  padding: 70px 0;
-  font-size: 1.3em;
+  padding: 10px 0;
+  font-size: 1.1em;
 }
 .footer img {
   max-width: 100%;
@@ -430,18 +460,19 @@ div.votos {
 }
 .footer .footer-single li {
   line-height: 32px;
-  font-size: 1.4em;
+  font-size: 1.0em;
 }
 .footer h6 {
-  font-family: 'all_things_pinkmedium', sans-serif;
-  font-size: 1.6em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  font-weight:bold;
 }
 .form-footer {
   text-align: center;
 }
 .form-footer a {
   color: white;
-  font-size: 1.4em;
+  font-size: 1.0em;
   /*background-color: #5CB85C;*/
   padding: 0px 0em;
 }
