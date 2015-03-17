@@ -16,10 +16,10 @@ $(document).ready(function() {
           },
         messages:{
           email_login: {
-            required: "Tienes que escribir un email",
+            required: "Tes que escribir un email",
           }, 
           pass_login: {
-            required: "Escribe la contraseña",
+            required: "Escribe o contrasinal",
           }
         },  
         }
@@ -37,16 +37,16 @@ $(document).ready(function() {
         },
         messages:{
           email_signup: {
-            remote: "Este email ya está registrado",
+            remote: "Este email xa está rexistrado",
           },
           nombre: {
-            required: "Escribe tu nombre",
+            required: "Escribe o teu nome",
           },
           apellidos: {
-            required: "Escribe tus apellidos",
+            required: "Escribe os teus apelidos",
           }, 
           pass_signup: {
-            required: "Escribe una contraseña",
+            required: "Escribe un contrasinal",
           }
         },
     });
@@ -59,10 +59,10 @@ $(document).ready(function() {
             $('.signup-error').show();
     }
     if(getUrlVars()['page']=='registered'){            
-            $('#login-intro-msg').empty().html('<span style="color:#00a48c; font-size:1.5em">¡Registro completado con éxito! Entra ahora y estrena tu nombre de usuario y contraseña</span>');
+            $('#login-intro-msg').empty().html('<span style="color:#00a48c; font-size:1.5em">Completaches o rexistro con éxito! Entra agora e estrea o teu nome de usuaria y contrasinal</span>');
     }
     if(getUrlVars()['page']=='email'){            
-            $('#login-intro-msg').empty().html('<span style="color:#00a48c; font-size:1.1em">¡Te hemos enviado el email con la nueva clave. Mira en la carpeta de spam si no lo encuentras!</span>');
+            $('#login-intro-msg').empty().html('<span style="color:#00a48c; font-size:1.1em">Enviamosche un correo coa nova chave. Mira no cartafol de spam se non o atopas!</span>');
     }
 
 });
@@ -85,16 +85,16 @@ $(document).ready(function() {
                 <div class="form-header">
                     <i class="fa fa-user"></i>
                     <h2>Entrar</h2>
-                    <h5 style="color:#555; padding: 0em 1em;"id="login-intro-msg" > Para comentar o enviar medidas es necesario estar registrado en la plataforma. <br/>Pero no te cortes, registrar un nuevo usuario es muy simple</h5>
+                    <h5 style="color:#555; padding: 0em 1em;"id="login-intro-msg" > Para comentar ou enviar medidas é preciso rexistrarse na plataforma. <br/>Non te cortes, rexistrar unha nova conta é moi simple</h5>
                     {% if error %}
-                    <p class="no_login">Usuario o contraseña incorrecta. Inténtalo otra vez.</p>
+                    <p class="no_login">O nome ou contrasinal non é correcto. Téntao de novo.</p>
                     {% endif%}
                 </div>
                 <form id="login_form"  method="post" action="entrar.php">
                 <div class="form-main">
                     <div class="form-group">
                         <input type="text" name="email_login" id="email_login" class="form-control" placeholder="Email">
-                        <input type="password" name="pass_login" id="pass_login" class="form-control" placeholder="Contraseña">
+                        <input type="password" name="pass_login" id="pass_login" class="form-control" placeholder="Contrasinal">
                     </div>
                     <button id="button_login" type="submit" class="btn btn-block signin">Entrar</button>
                 </form>
@@ -102,11 +102,11 @@ $(document).ready(function() {
                 <div class="form-footer">
                     <div class="row">
                         <div class="col-xs-7">                            
-                            <a href="" id="forgot_from_1"><i class="fa fa-unlock-alt"></i><br/>Recordar contraseña</a>
+                            <a href="" id="forgot_from_1"><i class="fa fa-unlock-alt"></i><br/>Lembrar contrasinal</a>
                         </div>
                         <div class="col-xs-5">
                             
-                            <a href="" id="signup_from_1"><i class="fa fa-check"></i><br/>Regístrate</a>
+                            <a href="" id="signup_from_1"><i class="fa fa-check"></i><br/>Rexístrate</a>
                         </div>
                     </div>
                 </div>      
@@ -116,40 +116,40 @@ $(document).ready(function() {
                 <div class="form-header">
                     <i class="fa fa-user"></i>
                     <h2>Alta</h2>
-                    <h5 class="signup-error"> Captcha incorrecto, prueba a registrarte de nuevo </h5>
+                    <h5 class="signup-error"> Captcha incorrecto, proba a rexistrarte de novo </h5>
                 </div>
                 <form id="signup_form" method="post" action="alta.php">
                 <div class="form-main">
                     <div class="form-group">
-                        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre">
-                        <input type="text" name="apellidos" id="apellidos" class="form-control" placeholder="Apellidos">
+                        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nome">
+                        <input type="text" name="apellidos" id="apellidos" class="form-control" placeholder="Apelidos">
                         <input type="text" name="email_signup" id="email_signup" class="form-control" placeholder="Email">
-                        <input type="password" name="pass_signup" id="pass_signup" class="form-control" placeholder="Contraseña">
+                        <input type="password" name="pass_signup" id="pass_signup" class="form-control" placeholder="Contrasinal">
                     </div>
 					<div class="g-recaptcha" data-sitekey="6LerPwMTAAAAAFjtwKyWAlNhLjAZ8-6yS9U1C3hl"></div>
-                    <button id="button_signup" type="submit" class="btn btn-block signin">Registrarse</button>
+                    <button id="button_signup" type="submit" class="btn btn-block signin">Rexistrarse</button>
                 </form>
                 </div>
                 <div class="form-footer">
-                    <p>De conformidad con lo dispuesto en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, te informamos de que los datos personales que nos proporciones así como aquellos que nos facilites en un futuro serán incorporados a un fichero automatizado de datos de carácter personal responsabilidad de "Ahora Madrid", con la finalidad de gestionar las comunicaciones que podamos realizar contigo.
+                    <p>De conformidade co disposto na Lei Orgánica 15/1999, de 13 de decembro, de Protección de Datos de Carácter Persoal, informámoste de que os datos persoais que nos proporciones así como aqueles que nos facilites nun futuro incorporaranse a un ficheiro automatizado de datos de carácter persoal responsabilidade de "Marea Atlántica", coa finalidade de xestionar as comunicacións que poidamos realizar contigo.
                         </p>
-                    <p>Para ejercitar los derechos de acceso, rectificación, oposición y cancelación reconocidos por la legislación vigente, el interesado deberá realizar una comunicación a hola@ahoramadrid.org, indicando como asunto “Protección de datos”.</p>
+                    <p>Para exercitar os dereitos de acceso, rectificación, oposición e cancelación recoñecidos pola lexislación vixente, a persoa interesada deberá realizar unha comunicación a ola@mareatlantica.org, indicando como asunto “Protección de datos”.</p>
 
-                    <p>Asumimos que al registrarte estás conforme con estas advertencias legales.</p>
+                    <p>Asumimos que ao rexistrarte estás conforme con estas advertencias legais.</p>
                 </div>      
             </div>
 
             <div id="forgot">
                 <div class="form-header">
                     <i class="fa fa-user"></i>
-                    <h2>Recuperar contraseña</h2>
+                    <h2>Recuperar contrasinal</h2>
                 </div>
                 <div class="form-main">
                 <form id="form_forgot" method="post" action="forgot.php">
                     <div class="form-group">
                         <input type="text" name="email_forgot"id="email_forgot" class="form-control" placeholder="Email">
                     </div>
-                    <button id="button_forgot" type="submit" class="btn btn-block signin">Recuperar contraseña</button>
+                    <button id="button_forgot" type="submit" class="btn btn-block signin">Recuperar contrasinal</button>
                 </form>
                 </div>  
             </div>
