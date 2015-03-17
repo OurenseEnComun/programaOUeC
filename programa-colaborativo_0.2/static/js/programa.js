@@ -1,5 +1,23 @@
 var listobjetivos={
 "objetivos":[
+//modelo economico
+    {"id":"modelo-economico",   
+     "titulo":"Garantizar el acceso a una vivienda digna ",
+     "apuesta":"modelo-economico",
+     "descripcion":"<p>El problema de los deshaucios y desalojos ha llegado a un punto insostenible; la vivienda es un derecho como reconoce la Constitución. AHORA MADRID se compromete a parar los desahucios, mejorar el parque público de vivienda y poner en uso las viviendas vacías en manos de grandes bancos o empresas. </p>"},
+   {"id":"servicios-publicos",   
+     "titulo":"Garantizar el acceso universal a los servicios públicos  ",
+     "apuesta":"modelo-economico",
+     "descripcion":"<p>Todas las personas deben tener derecho a la salud, a la educación, a la cultura y a una vida digna. Esta cuestión de derechos humanos ha sido puesta en duda en la última década. AHORA MADRID apuesta por la mejora de los servicios públicos y su acceso universal.  </p>"},
+   {"id":"vida-barrios",   
+     "titulo":"Potenciar la vida en los barrios ",
+     "apuesta":"modelo-economico",
+     "descripcion":"<p> Los barrios son el espacio primero de nuestra vida social y familiar. AHORA MADRID se compromete a fortalecer el espacio público, la convivencia, el tejido asociativo, el pequeño comercio y las instalaciones públicas de cercanía." },
+   {"id":"calidad-vida",   
+     "titulo":"Mejorar la calidad de vida reconociendo la diversidad",
+     "apuesta":"modelo-economico",
+     "descripcion":"<p> Todos/as somos iguales pero tenemos necesidades distintas según nuestro momento vital. AHORA MADRID quiere prestar atención a estas diferencias y mejorar la calidad de vida de todos/as y de cada uno/a de los ciudadanos y ciudadanas.</p>"},
+
 //derechos sociales
     {"id":"vivienda-digna",   
      "titulo":"Garantizar el acceso a una vivienda digna ",
@@ -98,6 +116,10 @@ var listobjetivos={
 
 
 var apuestas={
+    'modelo-economico':{
+        "titulo": "Modelo económico e enerxético",
+        "descripcion": "<p>AHORA MADRID apuesta por la defensa de los derechos sociales y los servicios públicos para todo/as y para cada uno/a. Equidad y respeto a la diversidad son las claves de nuestra políticas, porque sabemos que todos/as necesitamos acceder a la sanidad, a la salud o a la cultura, pero también que nuestra edad, nuestra renta o nuestra procedencia hace que tengamos necesidades específicas. Por eso, a la hora de potenciar la vida en los barrios y de mejorar la calidad de vida, otros de nuestros prinicipales objetivos, también estamos atentos/as a las necesidades de todos/as y de cada uno/a. </p>",
+    },
     'derechos-equidad':{
         "titulo": "Derechos sociales y Equidad",
         "descripcion": "<p>AHORA MADRID apuesta por la defensa de los derechos sociales y los servicios públicos para todo/as y para cada uno/a. Equidad y respeto a la diversidad son las claves de nuestra políticas, porque sabemos que todos/as necesitamos acceder a la sanidad, a la salud o a la cultura, pero también que nuestra edad, nuestra renta o nuestra procedencia hace que tengamos necesidades específicas. Por eso, a la hora de potenciar la vida en los barrios y de mejorar la calidad de vida, otros de nuestros prinicipales objetivos, también estamos atentos/as a las necesidades de todos/as y de cada uno/a. </p>",
