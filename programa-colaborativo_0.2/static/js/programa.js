@@ -135,10 +135,5 @@ var apuestas={
     'economia-empleo':{
         "titulo": "Cultura, memoria e identidades",
         "descripcion": "<p>AHORA MADRID desarrollará las medidas que propicien un cambio económico, que revierta el sistemático desmantelamiento de la actividad productiva, y que esté orientado a la consecución de un nuevo modelo sostenible social y medioambientalmente en la ciudad de Madrid. Para ello pretendemos garantizar un empleo de calidad, que sea sostenible medioambientalmente y que favorezca la pequeña economía y el trabajo cooperativo. AHORA MADRID pondrá los presupuestos del Ayuntamiento, la fiscalidad, las ordenanzas y normativas y sus infraestructuras al servicio de este nuevo modelo económico.</p>",
-    },
-    'radicalizacion-democratica':{
-        "titulo": "Radicalización democrática",
-        "descripcion": "<p>AHORA MADRID desarrollará las medidas que propicien un cambio económico, que revierta el sistemático desmantelamiento de la actividad productiva, y que esté orientado a la consecución de un nuevo modelo sostenible social y medioambientalmente en la ciudad de Madrid. Para ello pretendemos garantizar un empleo de calidad, que sea sostenible medioambientalmente y que favorezca la pequeña economía y el trabajo cooperativo. AHORA MADRID pondrá los presupuestos del Ayuntamiento, la fiscalidad, las ordenanzas y normativas y sus infraestructuras al servicio de este nuevo modelo económico.</p>",
-
     }
 }
