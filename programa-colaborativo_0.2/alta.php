@@ -33,7 +33,7 @@ if (isset($_POST["email_signup"])&& isset($_POST["pass_signup"])){
           header('Location: login.php?page=error-captcha');
 		  exit;
         } else{
-          alta ($nombre, $apellidos, $email, $password, $ip);
+          alta ($nombre, $apellidos, $email, $password, $ip, 1);
         }
 
 }

@@ -8,7 +8,7 @@ session_start();
 //Usuarios
 
 //Alta de usuarios
-function alta($nombre, $apellidos, $email, $password, $ip){
+function alta($nombre, $apellidos, $email, $password, $ip, $id_rol){
 
 	// Creamos el objeto que nos permitirá gestionar nuestro hash
 	$hasher = new PasswordHash(8, FALSE);
@@ -17,9 +17,9 @@ function alta($nombre, $apellidos, $email, $password, $ip){
 	try{
 			$conn = new PDO('mysql:host='.MYSQL_HOST.';dbname='.MYSQL_DB, MYSQL_USER, MYSQL_PASS);
 			$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-			$user = array('nombre'=>$nombre,'apellidos'=>$apellidos,'email'=>$email,'pass'=>$hash,'ip'=>$ip);
-			$result=$conn->prepare( "INSERT INTO users(nombre, apellidos, email, password, ip) 
-				VALUES(:nombre, :apellidos, :email, :pass, :ip);");
+			$user = array('nombre'=>$nombre,'apellidos'=>$apellidos,'email'=>$email,'pass'=>$hash,'ip'=>$ip,'id_rol'=>$id_rol));
+			$result=$conn->prepare( "INSERT INTO users(nombre, apellidos, email, password, ip, id_rol) 
+				VALUES(:nombre, :apellidos, :email, :pass, :ip, :id_rol);");
 			$result->execute($user);
 			header( 'Location: login.php?page=registered' );
 		}catch(PDOException $e ){
