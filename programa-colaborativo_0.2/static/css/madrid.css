@@ -90,7 +90,7 @@ a.carousel-control.right {
 	background-color: rgba(0,120,255,0.1);
 }
 
-/*#objetivos-modelo-economico div.objetivo{
+/*#objetivos-modelo-economico-enerxetico div.objetivo{
 	background-color: rgba(0,120,255,0.1);
 }
 
@@ -98,7 +98,7 @@ a.carousel-control.right {
 	background-color: rgba(92,184,92,0.1);
 }
 
-#objetivos-derechos-sociales div.objetivo{
+#objetivos-radicalizacion-democratica div.objetivo{
 	background-color: rgba(255,191,0,0.1);
 }
 
@@ -161,64 +161,64 @@ a.carousel-control.right {
   background-position-x: 95%;
   background-position-y: 90%;
 }
-#programa #col-ciudad-sostenible div.titulo-apuesta {
+#programa #col-xustiza-cohesion-social div.titulo-apuesta {
   border: 2px #4ecdc4 dotted;
   background-color: rgba(78, 205, 196, 0.9);
 }
-#programa #col-ciudad-sostenible div.objetivo {
+#programa #col-xustiza-cohesion-social div.objetivo {
   border: 2px #4ecdc4 dotted;
   background-color: rgba(78, 205, 196, 0.1);
 }
-#programa #col-ciudad-sostenible div.objetivo:hover,
-#programa #col-ciudad-sostenible div.objetivo:active {
+#programa #col-xustiza-cohesion-social div.objetivo:hover,
+#programa #col-xustiza-cohesion-social div.objetivo:active {
   background-color: #4ecdc4;
 }
-#programa #col-modelo-economico div.titulo-apuesta {
+#programa #col-modelo-economico-enerxetico div.titulo-apuesta {
   border: 2px #5CB85C dotted;
   background-color: rgba(92,184,92,0.9);
 }
-#programa #col-modelo-economico div.objetivo {
+#programa #col-modelo-economico-enerxetico div.objetivo {
   border: 2px #5CB85C dotted;
   background-color: rgba(78, 205, 196, 0.1);
 }
-#programa #col-modelo-economico div.objetivo:hover,
-#programa #col-modelo-economico div.objetivo:active {
+#programa #col-modelo-economico-enerxetico div.objetivo:hover,
+#programa #col-modelo-economico-enerxetico div.objetivo:active {
   background-color: #5CB85C;
 }
-#programa #col-gobierno-democratico div.titulo-apuesta {
+#programa #col-modelo-territorial-urbano div.titulo-apuesta {
   border: 2px #edc951 dotted;
   background-color: rgba(237, 201, 81, 0.9);
 }
-#programa #col-gobierno-democratico div.objetivo {
+#programa #col-modelo-territorial-urbano div.objetivo {
   border: 2px #edc951 dotted;
   background-color: rgba(237, 201, 81, 0.1);
 }
-#programa #col-gobierno-democratico div.objetivo:hover,
-#programa #col-gobierno-democratico div.objetivo:active {
+#programa #col-modelo-territorial-urbano div.objetivo:hover,
+#programa #col-modelo-territorial-urbano div.objetivo:active {
   background-color: #edc951;
 }
-#programa #col-derechos-equidad div.titulo-apuesta {
+#programa #col-radicalizacion-democratica div.titulo-apuesta {
   border: 2px #e97f02 dotted;
   background-color: rgba(233, 127, 2, 0.9);
 }
-#programa #col-derechos-equidad div.objetivo {
+#programa #col-radicalizacion-democratica div.objetivo {
   border: 2px #e97f02 dotted;
   background-color: rgba(233, 127, 2, 0.1);
 }
-#programa #col-derechos-equidad div.objetivo:hover,
-#programa #col-derechos-equidad div.objetivo:active {
+#programa #col-radicalizacion-democratica div.objetivo:hover,
+#programa #col-radicalizacion-democratica div.objetivo:active {
   background-color: #e97f02;
 }
-#programa #col-economia-empleo div.titulo-apuesta {
+#programa #col-cultura-memoria-identidades div.titulo-apuesta {
   border: 2px #eb6841 dotted;
   background-color: rgba(235, 104, 65, 0.9);
 }
-#programa #col-economia-empleo div.objetivo {
+#programa #col-cultura-memoria-identidades div.objetivo {
   border: 2px #eb6841 dotted;
   background-color: rgba(235, 104, 65, 0.1);
 }
-#programa #col-economia-empleo div.objetivo:hover,
-#programa #col-economia-empleo div.objetivo:active {
+#programa #col-cultura-memoria-identidades div.objetivo:hover,
+#programa #col-cultura-memoria-identidades div.objetivo:active {
   background-color: #eb6841;
 }
 /****enviar propuesta **/
