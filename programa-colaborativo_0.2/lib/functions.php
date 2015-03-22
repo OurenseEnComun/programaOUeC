@@ -94,7 +94,7 @@ $hash = $hasher->HashPassword($password);
 //Envía mail
 
 	$para      = $email;
-	$titulo    = 'nueva contraseña';
+	$titulo    = 'Novo contrasial';
 	$mensaje   = 'Ola: '. "\r\n" .'Recibes este email porque solicitaches un novo contrasinal en programa.mareatlantica.org. 
 	Se non é así, ponte en contacto con nos neste mesmo correo'. "\r\n" .'Novo contrasinal: '.$password."\r\n" . 'Un saúdo';
 	$cabeceras = 'From: Marea Atlantica' . "\r\n" .
