@@ -95,10 +95,10 @@ $hash = $hasher->HashPassword($password);
 
 	$para      = $email;
 	$titulo    = 'nueva contraseña';
-	$mensaje   = 'Hola:'. "\r\n" .'Recibes este email porque has solicitado una nueva contraseña en programa.ahoramadrid.org. 
-	Si no es así, ponte en contacto con nosotros en este mismo correo'. "\r\n" .'Nueva contraseña: '.$password. "\r\n" . 'Un saludo';
-	$cabeceras = 'From: Ahora Madrid' . "\r\n" .
-    'Reply-To: hola@ahoramadrid.org' . "\r\n" .
+	$mensaje   = 'Ola: '. "\r\n" .'Recibes este email porque solicitaches un novo contrasinal en programa.mareatlantica.org. 
+	Se non é así, ponte en contacto con nos neste mesmo correo'. "\r\n" .'Novo contrasinal: '.$password."\r\n" . 'Un saúdo';
+	$cabeceras = 'From: Marea Atlantica' . "\r\n" .
+    'Reply-To: ola@mareatlantica.org' . "\r\n" .
     'Content-type: text/html; charset=utf-8' . "\r\n".
     'X-Mailer: PHP/' . phpversion();
 
