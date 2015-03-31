@@ -14,12 +14,12 @@
   text-align: center;
 }
 hr.hr {
-  background-color: #00aedf;
+  background-color: #a88b93;
   height: 3px;
 }
 header.app-header-ahora {
   width: 100%;
-  background-color: #00aedf;
+  background-color: #a88b93;
 }
 header.app-header-ahora #header-container-ahora #logo-img {
   height: 80px;
@@ -43,7 +43,7 @@ header.app-header-ahora nav ul {
 }
 header.app-header-ahora nav ul a {
   font-family: ubuntu, sans;
-  color: #444;
+  color: #662738;
 }
 @media (min-width: 768px) and (max-width: 992px) {
   header.app-header-ahora nav ul a {
@@ -266,13 +266,13 @@ nav a {
   transition: background-color 0.6s;
 }
 div.navbar-default {
-  background-color: #00aedf;
+  background-color: #a88b93;
 }
 nav a:hover {
   background-color: #279AEE;
 }
 .principal h1 {
-  color: #00aedf;
+  color: #a88b93;
   font-family: 'Open Sans', sans-serif;
 }
 h2.madrid {
@@ -291,10 +291,10 @@ div.votos {
   color: #444;
 }
 .listado {
-  border-bottom: 1px solid #00aedf;
+  border-bottom: 1px solid #a88b93;
 }
 .listado .votos {
-  background: #ECF9F8;
+  background: #D8BBC3;
   margin-top: 10px;
   color: #222;
   text-align: left;
@@ -303,7 +303,7 @@ div.votos {
   font-family: Open Sans;
 }
 .listado span.sector {
-  color: #00aedf;
+  color: #a88b93;
 }
 .tipoautor-2,
 .tipoautor-3 {
@@ -316,12 +316,12 @@ div.votos {
 }
 .tipoautor-2 .titulo a,
 .tipoautor-3 .titulo a {
-  color: #00aedf;
+  color: #a88b93;
   font-family: ubuntu;
 }
 .tipoautor-2 .votos,
 .tipoautor-3 .votos {
-  background: #00aedf;
+  background: #a88b93;
   color: white;
 }
 #nota-programa {
@@ -416,7 +416,7 @@ div.votos {
   font-size: 0.9em;
 }
 .footer {
-  background-color: #00aedf;
+  background-color: #a88b93;
   border-top: 0px solid #062033;
   color: #fff;
   padding: 10px 0;
