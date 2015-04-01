@@ -1,4 +1,15 @@
-# prograMAD
-Plataforma para la creación de un programa para la ciudad de Madid
+# programaOUeC
+Plataforma para a creación participada dun programa para o Concello de Ourense
 
-## Version 0.1
+Graciñas mil ao traballo da xente de Ganemos Zaragoza (o código orixinal é seu), e
+de Ahora Madrid e Marea Atlántica, que adaptaron o código e agora nós aproveitamos
+o seu gran traballo :-)
+
+## Version 0.2
+
+Esta é a versión que estamos a usar en Ourense en Común, e onde aplicamos os nosos
+parches sobre as modificacións de Ahora Madrid e a Marea Atlántica.
+
+Para instalala simplemente fai un ```git clone``` deste repositorio.
+
+Precisarás un arquivo de configuración en ```programa-colaborativo_0.2/lib/config.php```, que entre outras cousas indicará os datos de acceso á Base de Datos (que terás que crear no teu MySQL, coa correspondente usuaria). Tes un esqueleto deste arquivo listo para usar en ```programa-colaborativo_0.2/lib/config.php.dist```
