@@ -13,3 +13,5 @@ parches sobre as modificacións de Ahora Madrid e a Marea Atlántica.
 Para instalala simplemente fai un ```git clone``` deste repositorio.
 
 Precisarás un arquivo de configuración en ```programa-colaborativo_0.2/lib/config.php```, que entre outras cousas indicará os datos de acceso á Base de Datos (que terás que crear no teu MySQL, coa correspondente usuaria). Tes un esqueleto deste arquivo listo para usar en ```programa-colaborativo_0.2/lib/config.php.dist```
+
+Para que funcione o recaptcha de Google, que é o que se usa para evitar _spammers_, terás que cambiar as chaves polas túas propias en ```alta.php``` en ```vistas/login.html```.
