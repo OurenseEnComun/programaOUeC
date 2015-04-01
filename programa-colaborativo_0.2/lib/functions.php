@@ -95,10 +95,10 @@ $hash = $hasher->HashPassword($password);
 
 	$para      = $email;
 	$titulo    = 'Novo contrasial';
-	$mensaje   = 'Ola: '. "\r\n" .'Recibes este email porque solicitaches un novo contrasinal en programa.mareatlantica.org. 
-	Se non é así, ponte en contacto con nos neste mesmo correo'. "\r\n" .'Novo contrasinal: '.$password."\r\n" . 'Un saúdo';
-	$cabeceras = 'From: Marea Atlantica' . "\r\n" .
-    'Reply-To: ola@mareatlantica.org' . "\r\n" .
+	$mensaje   = 'Ola: '. "\r\n" .'Recibes este email porque solicitaches un novo contrasinal en programa.ourenseencomun.info. 
+	Se non é así, ponte en contacto con nós neste mesmo correo'. "\r\n" .'Novo contrasinal: '.$password."\r\n" . 'Un saúdo';
+	$cabeceras = 'From: Ourense en Común <ola@ourenseencomun.info>' . "\r\n" .
+    'Reply-To: ola@ourenseencomun.info' . "\r\n" .
     'Content-type: text/html; charset=utf-8' . "\r\n".
     'X-Mailer: PHP/' . phpversion();
 
