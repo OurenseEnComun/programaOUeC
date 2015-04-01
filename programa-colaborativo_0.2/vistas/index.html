@@ -62,16 +62,32 @@
 {% block content %}
 <div class="container principal">
 	<!-- <div class="row">
-		<div class="col-xs-12">
+		<div class="col-xs-12 col-lg-8 col-lg-offset-2" style="text-align:center">
 			<h1 class="center">PLATAFORMA DE PROGRAMA COLABORATIVO</h1>
 		</div>
 	</div> -->
 
 	<div class="row" >
 		<div class="col-md-10 col-md-offset-1 " id="intro-text" >
-			<p class="text-center">Benvido/a ao banco de ideas de <strong>Ourense en Común</strong>. Chegou a hora de converter o noso <a href='http://ourenseencomun.info/manifesto/asina-o-manifesto'>desexo común</a> nun <strong>programa para transformar o noso Concello</strong> de acordo cos <a href='http://ourenseencomun.info/declaracion-de-principios'>principios básicos</a> que compartimos: democracia, participación, xustiza social, sustentabilidade, medio ambiente, compromiso ético e unha vida digna para todas e para todos. E para iso manteremos aberto este espazo até o <strong>XX de abril</strong>. Para que fagas as túas propias <strong>propostas</strong> e axudes, cos teus votos e comentarios, a mellorar as demais. <strong>Participa!</strong></p>
+			<p class="text-center">Benvido/a ao banco de ideas de <strong>Ourense en Común</strong>. Chegou a hora de converter o noso <a href='http://ourenseencomun.info/manifesto/asina-o-manifesto'>desexo común</a> nun <strong>programa para transformar o noso Concello</strong> de acordo cos <a href='http://ourenseencomun.info/declaracion-de-principios'>principios básicos</a> que compartimos: democracia, participación, xustiza social, sustentabilidade, compromiso ético e unha vida digna para todas e para todos. E para iso manteremos aberto este espazo até o <strong>XX de abril</strong>. Para que fagas as túas propias <strong>propostas</strong> e axudes, cos teus votos e comentarios, a mellorar as demais. <strong>Participa!</strong></p>
 		</div>
 	</div>	
+
+	<div class="row" style="padding-top:2em;">
+		<div class="col-md-8 col-md-offset-2">
+			<form role="form" id="search-form" action="buscar.php" method="post">
+				<div class="col-xs-12 col-md-6">
+					<div class="form-group">
+						<input type="text" class="form-control" id="buscar" name="buscar" placeholder="Procurar entre as propostas...(OLLO: os acentos importan!)" />
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<button type="submit" class="btn btn-default btn-success btn-block">Procura!</button>
+					<input type="hidden" name="page" id="page" value="1" />
+				</div>
+			</form>
+		</div>
+	</div>
 	
 	<div class="row" >
 		<div class="col-md-4 col-md-offset-1 col-sm-6" >

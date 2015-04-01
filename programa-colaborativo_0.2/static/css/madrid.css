@@ -45,10 +45,16 @@ header.app-header-ahora nav ul a {
   font-family: ubuntu, sans;
   color: #662738;
 }
+@media (min-width: 992px) {
+  header.app-header-ahora nav ul a {
+    padding: 0.3em 0.4em;
+    font-size: 0.9em;
+  }
+}
 @media (min-width: 768px) and (max-width: 992px) {
   header.app-header-ahora nav ul a {
-    padding: 0.8em 0.4em;
-    font-size: 0.9em;
+    padding: 0.4em 0.4em;
+    font-size: 0.8em;
   }
 }
 header.app-header-ahora nav ul a:hover {
@@ -492,4 +498,7 @@ label#titulo-error {
 }
 .propuesta-contenido-wrapper {
   margin-right: 4em;
+}
+div.form-group input#buscar {
+  border: 1px solid #999;
 }
